@@ -1,0 +1,39 @@
+.author_section{
+  position: relative;
+  margin: 140px 0 40px;
+  max-width: 1200px;
+}
+
+.author_background{
+  width: 70%;
+  height: 504px;
+  background-image: url("./../../assets/openbook.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+
+}
+
+.author_info{
+  position: absolute;
+  display: flex;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  padding: 24px;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  right: 60px;
+  width: 80%;
+  background: white;
+  box-shadow: 0 0 24px 0 rgba(34, 60, 80, 0.2);
+}
+
+.author_about{
+  width: 65%;
+}
+
+.author_photo{
+  width: 200px;
+  height: 200px;
+}

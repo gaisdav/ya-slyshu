@@ -1,0 +1,106 @@
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px 24px 48px;
+    min-height: 600px;
+}
+
+.main .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+    color: white;
+    width: 50%;
+}
+
+.main .description .title {
+    font-size: 85px;
+    line-height: 1em;
+    margin-bottom: 12px;
+}
+
+.main .description .sup {
+    opacity: 0.5;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.main .description .buy-link {
+    padding: 12px;
+    background: #e79fb6;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.main .description .download-link {
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid white
+}
+
+.main .actions {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main .preview {
+    position: absolute;
+    border-radius: 4px;
+    padding: 62px 42px;
+    background: #e79fb6;
+    right: 24px;
+}
+
+.book {
+    width: 400px
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        min-height: 500px;
+    }
+
+    .main .description .title {
+        font-size: 65px;
+    }
+
+    .book {
+        width: 300px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 24px;
+    }
+
+    .main .description {
+        padding-right: 0;
+        padding-bottom: 24px;
+        width: auto;
+    }
+
+    .main .description .title {
+        font-size: 52px;
+    }
+
+    .main .preview {
+        position: relative;
+        right: auto;
+    }
+
+    .book {
+        width: 200px
+    }
+}
+
