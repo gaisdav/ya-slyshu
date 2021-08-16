@@ -3,23 +3,25 @@ import './main.css'
 import book from '../../assets/book.png';
 
 const Main: FC = () => {
-    return <div className='main'>
-        <div className="description">
-            <div className='sup'>сборник стихов от Султановой Назгуль</div>
-            <div className='title'>Вы слышите волны?</div>
-
-            <div>Какой нибудь короткий текст Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus
-                deserunt dolores dolorum ?</div>
-
-            <div className='actions'>
-                <a rel="noreferrer"  href="#links" className='buy-link'>Купить</a>
-                <a href="#links" className='download-link'>Скачать отрывок</a>
-            </div>
-        </div>
-        <div className="preview">
-            <img src={book} alt="book" className="book"/>
-        </div>
+  return <div className='main'>
+    <div className="preview">
+      <img src={book} alt="book" className="book"/>
     </div>
+
+    <div className="description">
+      <div className='sup'>Книга Султановой Назгуль</div>
+      <div className='title'>Вы слышите волны?</div>
+
+      <div>
+        Дорогой читатель. В этот сборник вошли мои выбранные стихотворения и илюстрации нарисованные мной самой.
+        Для покупки книги вы можете связаться с автором или скачать электронную версию отрывка сборника?
+      </div>
+      <div className='actions'>
+        <a rel="noreferrer" href="#links" className='buy-link'>Купить</a>
+        <a download='doc.pdf' href="../../assets/doc.pdf" className='download-link'>Скачать отрывок</a>
+      </div>
+    </div>
+  </div>
 }
 
 export default Main

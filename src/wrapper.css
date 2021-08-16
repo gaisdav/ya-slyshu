@@ -15,3 +15,9 @@
     justify-content: center;
     background: #363fba;
 }
+
+.wrapper > #author{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
