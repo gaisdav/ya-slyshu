@@ -24,9 +24,9 @@ const Wrapper: FC = () => {
         {/*    <Book/>*/}
         {/*</section>*/}
 
-        {/*<section id='links'>*/}
-        {/*    <Buy/>*/}
-        {/*</section>*/}
+        <section id='links'>
+            <Buy/>
+        </section>
     </div>
 }
 

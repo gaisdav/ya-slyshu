@@ -1,5 +1,6 @@
 .author_section {
     display: flex;
+    background: #ebecee;
 }
 
 .author_title {
@@ -14,21 +15,25 @@
     position: absolute;
     left: 2px;
     bottom: -12px;
-    width: 60%;
+    width: 70%;
     height: 1px;
-    background: #e79fb6;
+    background: #1C1C1C;
 }
 
 .author_info {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 32px;
-    border-radius: 4px;
+    padding: 40px;
     justify-content: center;
     align-items: flex-start;
-    background: white;
     box-shadow: 0 0 24px 0 rgba(34, 60, 80, 0.2);
+}
+
+.author_info .author_about{
+    font-size: 16px;
+    line-height: 2em;
+    color: #1C1C1C;
 }
 
 .author_photo_wrapper {
