@@ -6,39 +6,6 @@
     padding: 24px 40px;
 }
 
-.header .menu-item {
-    position: relative;
-    opacity: 0.6;
-    color: white;
-    transition: 0.3s;
-    text-decoration: none;
-    margin-right: 24px;
-}
-
-.header .menu-item:last-child {
-    margin-right: 0;
-}
-
-.header .menu-item:after {
-    content: '';
-    position: absolute;
-    height: 1px;
-    width: 0;
-    bottom: -5px;
-    left: 0;
-    background: #e79fb6;
-    transition: 0.3s;
-}
-
-.header .menu-item:hover {
-    opacity: 1;
-    color: #e79fb6;
-}
-
-.header .menu-item:hover:after {
-    width: 30px;
-}
-
 .header .links * {
     margin-right: 8px;
 }

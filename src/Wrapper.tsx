@@ -21,7 +21,7 @@ const Wrapper: FC = () => {
         </section>
 
         <section id='book'>
-           {/* <Book/> */}
+           <Book/>
         </section>
 
         <section id='links'>

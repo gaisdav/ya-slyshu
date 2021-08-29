@@ -55,11 +55,15 @@
         flex-direction: column;
     }
 
+    .author_info {
+        padding: 20px;
+    }
+
     .author_title {
         font-size: 32px;
     }
 
     .author_photo_wrapper {
-        min-height: 600px;
+        min-height: 500px;
     }
 }

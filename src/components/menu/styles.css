@@ -1,0 +1,53 @@
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    position: relative;
+    opacity: 0.6;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0;
+    bottom: -5px;
+    left: 0;
+    background: #e79fb6;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    opacity: 1;
+    color: #e79fb6;
+}
+
+.menu-item:hover:after {
+    width: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 0 0 8px;
+    }
+
+    .menu-item:after {
+        display: none;
+    }
+}
