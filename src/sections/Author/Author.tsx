@@ -4,9 +4,7 @@ import naz from '../../assets/naz.jpeg'
 
 const Author: FC = () => {
   return <div className='author_section'>
-    <div className='author_photo_wrapper'>
-      <img src={naz} alt="author" className={'author_photo'}/>
-    </div>
+    <div className='author_photo_wrapper' />
 
     <div className='author_info'>
       <div className='author_title'>

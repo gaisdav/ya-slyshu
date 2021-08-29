@@ -3,7 +3,7 @@ import Header from "./sections/Header/Header";
 import './wrapper.css'
 import Main from "./sections/Main/Main";
 import Author from "./sections/Author/Author";
-// import Book from "./sections/Book";
+import Book from "./sections/Book";
 import Buy from "./sections/Buy";
 
 const Wrapper: FC = () => {
@@ -20,9 +20,9 @@ const Wrapper: FC = () => {
             <Author/>
         </section>
 
-        {/*<section id='book'>*/}
-        {/*    <Book/>*/}
-        {/*</section>*/}
+        <section id='book'>
+           {/* <Book/> */}
+        </section>
 
         <section id='links'>
             <Buy/>

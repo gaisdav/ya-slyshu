@@ -9,6 +9,8 @@ const Buy: FC = () => {
         </h2>
 
         <Links />
+
+        <span className="author_name">© Султанова Назгуль, 2021 г.</span>
     </div>
 }
 

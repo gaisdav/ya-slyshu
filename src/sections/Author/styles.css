@@ -37,6 +37,12 @@
 
 .author_photo_wrapper {
     flex: 1;
+    min-height: 800px;
+    min-width: 50%;
+    background-image: url('../../assets/naz.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .author_photo_wrapper .author_photo {
@@ -51,5 +57,9 @@
 
     .author_title {
         font-size: 32px;
+    }
+
+    .author_photo_wrapper {
+        min-height: 600px;
     }
 }
