@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9652a388.chunk.css",
+    "main.js": "/static/js/main.a84958b4.chunk.js",
+    "main.js.map": "/static/js/main.a84958b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a8b6c74.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a8b6c74.js.map",
+    "static/js/2.e4e2446d.chunk.js": "/static/js/2.e4e2446d.chunk.js",
+    "static/js/2.e4e2446d.chunk.js.map": "/static/js/2.e4e2446d.chunk.js.map",
+    "static/js/3.90068a06.chunk.js": "/static/js/3.90068a06.chunk.js",
+    "static/js/3.90068a06.chunk.js.map": "/static/js/3.90068a06.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9652a388.chunk.css.map": "/static/css/main.9652a388.chunk.css.map",
+    "static/js/2.e4e2446d.chunk.js.LICENSE.txt": "/static/js/2.e4e2446d.chunk.js.LICENSE.txt",
+    "static/media/book.02af5a92.png": "/static/media/book.02af5a92.png",
+    "static/media/styles.css": "/static/media/whatsapp_color.f179709d.svg",
+    "static/media/naz.bc2aa263.jpeg": "/static/media/naz.bc2aa263.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a8b6c74.js",
+    "static/js/2.e4e2446d.chunk.js",
+    "static/css/main.9652a388.chunk.css",
+    "static/js/main.a84958b4.chunk.js"
+  ]
+}
