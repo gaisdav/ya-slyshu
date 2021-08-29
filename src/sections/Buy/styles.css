@@ -1,4 +1,43 @@
 .buy_section{
-    background: #363fba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4e4e4e; 
     color: white;
+    padding: 20px;
+}
+
+.buy_section .title {
+    text-align: center;
+    max-width: 500px;
+}
+
+.buy_section .links > * {
+    margin: 8px;
+}
+
+.buy_section .links .instagram {
+    height: 40px;
+    width: 40px;
+}
+
+.buy_section .links .vk {
+    height: 40px;
+    width: 40px;
+}
+
+.buy_section .links .telegram {
+    height: 40px;
+    width: 40px;
+}
+
+.buy_section .links .whatsapp {
+    height: 40px;
+    width: 40px;
+}
+
+.buy_section .links .email {
+    height: 40px;
+    width: 40px;
 }

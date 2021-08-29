@@ -6,7 +6,7 @@
     padding: 24px 40px;
 }
 
-.header a {
+.header .menu-item {
     position: relative;
     opacity: 0.6;
     color: white;
@@ -15,11 +15,11 @@
     margin-right: 24px;
 }
 
-.header a:last-child {
+.header .menu-item:last-child {
     margin-right: 0;
 }
 
-.header a:after {
+.header .menu-item:after {
     content: '';
     position: absolute;
     height: 1px;
@@ -30,13 +30,43 @@
     transition: 0.3s;
 }
 
-.header a:hover {
+.header .menu-item:hover {
     opacity: 1;
     color: #e79fb6;
 }
 
-.header a:hover:after {
-    width: 20px;
+.header .menu-item:hover:after {
+    width: 30px;
+}
+
+.header .links * {
+    margin-right: 8px;
+}
+
+.header .links .instagram {
+    height: 30px;
+    width: 30px;
+}
+
+.header .links .vk {
+    height: 30px;
+    width: 30px;
+}
+
+.header .links .telegram {
+    height: 30px;
+    width: 30px;
+}
+
+.header .links .whatsapp {
+    height: 30px;
+    width: 30px;
+    margin-right: 0;
+}
+
+.header .links .email {
+    height: 30px;
+    width: 30px;
 }
 
 @media screen and (max-width: 432px) {
@@ -53,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
     .header {
         font-size: 14px;
     }

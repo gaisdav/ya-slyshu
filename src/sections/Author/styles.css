@@ -1,6 +1,6 @@
 .author_section {
     display: flex;
-    background: #ebecee;
+    max-width: 1600px;
 }
 
 .author_title {
@@ -27,7 +27,6 @@
     padding: 40px;
     justify-content: center;
     align-items: flex-start;
-    box-shadow: 0 0 24px 0 rgba(34, 60, 80, 0.2);
 }
 
 .author_info .author_about{
